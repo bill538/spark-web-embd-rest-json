@@ -16,6 +16,9 @@
  **/
 #include "http_parser.h"
 #include <string.h>
+#include <cstdio>
+#include <stdio.h>      /* fopen, fputs, fclose, stderr */
+#include <stdlib.h>     /* abort, NULL */
 
 #define MAX_URL_LENGTH 128
 
